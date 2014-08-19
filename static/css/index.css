@@ -1,0 +1,51 @@
+:host {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+#core_header_panel {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+#core_toolbar {
+  color: rgb(255, 255, 255);
+  background-color: rgb(79, 125, 201);
+}
+#section {
+  height: 100%;
+  background-color: rgb(214, 227, 231);
+}
+
+ paper-button {
+      margin: 1em;
+      width: 10em;
+}
+
+paper-button.colored {
+  color: #FF4500;
+  fill: #FF4500;
+}
+
+paper-button[raisedButton].colored {
+  background: #FF4500;
+  color: #fff;
+}
+
+paper-button[raisedButton].colored #ripple,
+paper-button[raisedButton].colored::shadow #ripple {
+  color: #2a56c6;
+}
+
+paper-button[raisedButton].colored #focusBg,
+paper-button[raisedButton].colored::shadow #focusBg {
+  background: #3367d6;
+}
+
+IMG.loader-gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }

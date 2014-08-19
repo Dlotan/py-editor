@@ -5,6 +5,8 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /polymer
+  static_dir: bower_components
 - url: /static/css
   static_dir: static/css
 - url: /static/data
