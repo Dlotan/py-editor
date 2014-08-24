@@ -16,6 +16,7 @@ codemirrorAccess.init = function(sharedString) {
     tabMode: "shift",
     matchBrackets: true
   });
+  codemirrorAccess.codeMirrorObject.setValue(sharedString.getText());
   codemirrorAccess.codeMirrorObject.on("change", function() {
     sharedString.setText(codemirrorAccess.codeMirrorObject.getValue());
   });   
